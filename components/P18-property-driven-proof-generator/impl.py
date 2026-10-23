@@ -7,8 +7,13 @@ L1: 属性(forall x, P(x))→生成量词+占位证明骨架。
 L2: gen(prop) → 骨架字符串。
 """
 
+def _tag(prop):
+    """确定性稳定命名（不用内置 hash：Python 字符串 hash 每进程随机化）。"""
+    import zlib
+    return zlib.crc32(prop.encode("utf-8")) % 1000
+
 def gen(prop, var="x"):
-    return (f"theorem property_{abs(hash(prop))%1000} :\n"
+    return (f"theorem property_{_tag(prop)} :\n"
             f"  forall {var}, {prop} := by\n  intro {var}\n  sorry")
 
 def demo():
