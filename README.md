@@ -71,6 +71,33 @@
 | P54 | [uncertainty-calibrator](components/P54-uncertainty-calibrator/) | 涌现拓扑/规划/抽象 | AI 说'我八成确定'时，它真的八成对吗？这个工具算差值。… |
 | P55 | [causal-discoverer](components/P55-causal-discoverer/) | 涌现拓扑/规划/抽象 | 看两个事件是不是总一起出现，猜它们有没有关系。… |
 
+<!-- CLUSTER_INDEX:BEGIN -->
+## 按机制簇浏览（14 簇仓 · 每个簇一个仓）
+
+上面 55 个组件按 **14 个机制簇**各自聚成一个仓：每仓带簇级综述（费曼三层 + 该用/不该用/常见误用）
+和 `run_all.py`，`git clone` 后一条命令就能跑完该簇全部组件自检。
+**只想看懂一个机制 → 去对应簇仓；想要全部 55 个 → 就在本仓。**
+
+| 簇 | 机制 | 组件 | 仓库 |
+|---|---|---|---|
+| `C01` | Adaptive Thinking Routing | 4 | [`eim-c01-adaptive-thinking-routing`](https://github.com/chenhz01/eim-c01-adaptive-thinking-routing) |
+| `C02` | Emergent Agent Language | 4 | [`eim-c02-emergent-agent-language`](https://github.com/chenhz01/eim-c02-emergent-agent-language) |
+| `C03` | Self-Evolution Safety | 4 | [`eim-c03-self-evolution-safety`](https://github.com/chenhz01/eim-c03-self-evolution-safety) |
+| `C04` | Silent Failure Hunting | 4 | [`eim-c04-silent-failure-hunting`](https://github.com/chenhz01/eim-c04-silent-failure-hunting) |
+| `C05` | Fuzz to Formal Proof | 3 | [`eim-c05-fuzz-to-formal-proof`](https://github.com/chenhz01/eim-c05-fuzz-to-formal-proof) |
+| `C06` | Event-Level World Model | 4 | [`eim-c06-event-level-world-model`](https://github.com/chenhz01/eim-c06-event-level-world-model) |
+| `C07` | Memory Provenance | 4 | [`eim-c07-memory-provenance`](https://github.com/chenhz01/eim-c07-memory-provenance) |
+| `C08` | Tool Affordance Learning | 4 | [`eim-c08-tool-affordance-learning`](https://github.com/chenhz01/eim-c08-tool-affordance-learning) |
+| `C09` | PRM-Guided Compute | 4 | [`eim-c09-prm-guided-compute`](https://github.com/chenhz01/eim-c09-prm-guided-compute) |
+| `C10` | Reflection Trigger | 4 | [`eim-c10-reflection-trigger`](https://github.com/chenhz01/eim-c10-reflection-trigger) |
+| `C11` | Skill Emergence Detection | 4 | [`eim-c11-skill-emergence-detection`](https://github.com/chenhz01/eim-c11-skill-emergence-detection) |
+| `C12` | Multi-Agent Verification | 4 | [`eim-c12-multi-agent-verification`](https://github.com/chenhz01/eim-c12-multi-agent-verification) |
+| `C13` | Emergence Probing | 3 | [`eim-c13-emergence-probing`](https://github.com/chenhz01/eim-c13-emergence-probing) |
+| `C14` | Emergent Topology | 5 | [`eim-c14-emergent-topology`](https://github.com/chenhz01/eim-c14-emergent-topology) |
+
+_已上线 14/14（状态由发布台账生成，未上线的标注「待上线」而不给死链）。_
+<!-- CLUSTER_INDEX:END -->
+
 ## 运行
 
 ```bash
