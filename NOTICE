@@ -1,0 +1,10 @@
+emergent-mechanisms (EIM-1.0)
+Copyright 2026 chenhz01
+
+本作品采用双许可：
+- 代码/实现：Apache License 2.0（见 LICENSE）
+- 规范/文档：Creative Commons Attribution 4.0 International, CC BY 4.0（见 LICENSE-SPEC）
+
+署名触发条件：任何对外表述出现「符合 / 通过 / 兼容 / certified / EIM-1.0 / 满足 EIM 规范」等语义，
+即须署名规范名称与版本（EIM-1.0）、作者（chenhz01）及规范链接。
+未作上述声明者，可自由实现、商用、闭源、改名，无需署名。
